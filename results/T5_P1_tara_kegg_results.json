@@ -1,0 +1,67 @@
+{
+  "executed": "2026-04-20T20:25:56",
+  "source": "Sunagawa 2015 Tara Oceans TARA243 KEGG KO profile",
+  "n_samples": 243,
+  "n_KO_raw": 10914,
+  "per_fit": [
+    {
+      "label": "global_KO_all_layers",
+      "n_samples": 243,
+      "n_features_after_filter": 9273,
+      "beta": 1.5904596603512375,
+      "beta_se": 0.0029747824488214757,
+      "beta_ci_lo": 1.5846284326021893,
+      "beta_ci_hi": 1.5962908881002857,
+      "alpha": -1.7414540290678144,
+      "r2": 0.9685855352533128
+    },
+    {
+      "label": "KO_layer_SRF",
+      "n_samples": 113,
+      "n_features_after_filter": 9255,
+      "beta": 1.595215306293963,
+      "beta_se": 0.002956335729238027,
+      "beta_ci_lo": 1.5894202366997492,
+      "beta_ci_hi": 1.6010103758881766,
+      "alpha": -1.7838904985263888,
+      "r2": 0.9691990281214677
+    },
+    {
+      "label": "KO_layer_DCM",
+      "n_samples": 74,
+      "n_features_after_filter": 9232,
+      "beta": 1.6569608568671585,
+      "beta_se": 0.0030580955748772164,
+      "beta_ci_lo": 1.6509663135938093,
+      "beta_ci_hi": 1.6629554001405078,
+      "alpha": -1.4635027889372494,
+      "r2": 0.9695185627864941
+    },
+    {
+      "label": "KO_layer_MES",
+      "n_samples": 43,
+      "n_features_after_filter": 8747,
+      "beta": 1.588062107946123,
+      "beta_se": 0.003121107883890157,
+      "beta_ci_lo": 1.5819440021183124,
+      "beta_ci_hi": 1.5941802137739336,
+      "alpha": -2.160123064685062,
+      "r2": 0.967325056456435
+    },
+    {
+      "label": "KO_layer_MIX",
+      "n_samples": 13,
+      "n_features_after_filter": 9338,
+      "beta": 1.7460358138037477,
+      "beta_se": 0.002688332203916719,
+      "beta_ci_lo": 1.7407660963151492,
+      "beta_ci_hi": 1.7513055312923462,
+      "alpha": -1.2797051593033937,
+      "r2": 0.9783472312620172
+    }
+  ],
+  "interpretation": "If KO \u03b2 \u2248 2, macroecological law extends from taxa to function, major novelty. If KO \u03b2 distinctly < 2 (e.g., 1.2-1.5), function differs fundamentally from taxa.",
+  "global_KO_beta": 1.5904596603512375,
+  "deviation_vs_taxonomic_EMP_pct": 19.1,
+  "within_15pct_of_taxa_beta": false
+}

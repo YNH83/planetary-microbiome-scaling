@@ -1,0 +1,90 @@
+{
+  "overall": "PASS",
+  "n_cohorts_total": 9,
+  "pre_reg_A_frac_cohorts_beta_in_1.5_2.5_and_R2_0.8": {
+    "pass": true,
+    "n_cohorts_passing": 9,
+    "threshold_min_cohorts": 6,
+    "frac_required": 0.6666666666666666
+  },
+  "pre_reg_B_universal_BIC_decisive_by_at_least_10": {
+    "pass": true,
+    "delta_BIC": 23.390162683920153,
+    "threshold": 10.0
+  },
+  "pre_reg_C_gamma_beats_exp_in_>=70pct_of_taxa": {
+    "pass": true,
+    "frac_gamma_better_pooled": 0.8814814814814815,
+    "threshold": 0.7
+  },
+  "universal_beta_shotgun": 1.7288230007782444,
+  "emp_reference_beta_16s": 1.9659378236325347,
+  "beta_deviation_vs_emp": -0.12061155749888602,
+  "emp_deviation_within_15pct": true,
+  "per_cohort_beta": {
+    "FengQ_2015": {
+      "beta": 1.8139695772861348,
+      "ci_lo": 1.7573410171797326,
+      "ci_hi": 1.874878491992312,
+      "R2": 0.9519715078282751,
+      "n_samples": 154
+    },
+    "HMP_2019_ibdmdb": {
+      "beta": 1.554701225834872,
+      "ci_lo": 1.4566603247522842,
+      "ci_hi": 1.65793968230567,
+      "R2": 0.9101135729399936,
+      "n_samples": 1627
+    },
+    "KarlssonFH_2013": {
+      "beta": 1.7255629394473304,
+      "ci_lo": 1.6614779475879187,
+      "ci_hi": 1.7944495782195067,
+      "R2": 0.942223430628011,
+      "n_samples": 145
+    },
+    "LifeLinesDeep_2016": {
+      "beta": 1.6439162835318428,
+      "ci_lo": 1.5673915258142759,
+      "ci_hi": 1.7248050696109245,
+      "R2": 0.9306951895488144,
+      "n_samples": 1135
+    },
+    "NielsenHB_2014": {
+      "beta": 1.6521082447520083,
+      "ci_lo": 1.5863210865742705,
+      "ci_hi": 1.7262195436229393,
+      "R2": 0.929794903098428,
+      "n_samples": 396
+    },
+    "QinJ_2012": {
+      "beta": 1.7467830652822414,
+      "ci_lo": 1.6780369456750748,
+      "ci_hi": 1.8191840499073804,
+      "R2": 0.942861808481635,
+      "n_samples": 363
+    },
+    "VogtmannE_2016": {
+      "beta": 1.7930505939178025,
+      "ci_lo": 1.7386108040066772,
+      "ci_hi": 1.850884152252781,
+      "R2": 0.9517894937546063,
+      "n_samples": 110
+    },
+    "YachidaS_2019": {
+      "beta": 1.6928410534606175,
+      "ci_lo": 1.6288436566736237,
+      "ci_hi": 1.7637945300233677,
+      "R2": 0.9378623280170644,
+      "n_samples": 616
+    },
+    "ZellerG_2014": {
+      "beta": 1.7565457387456915,
+      "ci_lo": 1.6951083011575934,
+      "ci_hi": 1.8198425176971895,
+      "R2": 0.9411275185121216,
+      "n_samples": 156
+    }
+  },
+  "mode": "REAL shotgun metagenomic, expanded pool (curatedMG MetaPhlAn species)"
+}

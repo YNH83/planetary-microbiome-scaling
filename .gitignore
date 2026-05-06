@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Mac
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Local working files
+*.swp
+*.swo
+*~
+.ipynb_checkpoints/
+
+# Word temp / lockfiles
+~$*.docx
+~$*.doc
+
+# Large local data not tracked here
+raw_data/
+figures/
+*.pdf
+*.tif
+*.tiff
+
+# Local sandbox
+.scratch/

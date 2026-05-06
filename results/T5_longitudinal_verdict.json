@@ -1,0 +1,39 @@
+{
+  "cohort": "HMP_2019_ibdmdb",
+  "n_time_bins": 3,
+  "mean_beta_across_bins": 1.620502116485538,
+  "sd_beta_across_bins": 0.015629532960843368,
+  "cv_beta_across_bins": 0.00964487043974981,
+  "cv_threshold": 0.1,
+  "stable_across_time": true,
+  "bic_universal_vs_bin": {
+    "BIC_universal": -566.8994980681437,
+    "BIC_bin_specific": -555.9149586340487,
+    "delta_BIC": 10.984539434094927,
+    "universal_beta": 1.6210102888401337,
+    "bin_intercepts": {
+      "early": 0.8709016097808492,
+      "middle": 0.8413410795046885,
+      "late": 0.8064734774303438
+    },
+    "bin_specific_betas": {
+      "early": 1.6045023355425996,
+      "middle": 1.6212709933414993,
+      "late": 1.6357330205725125
+    },
+    "verdict": "universal decisive",
+    "n_points": 268,
+    "n_bins": 3
+  },
+  "per_subject_median_beta": 1.712037310101697,
+  "per_subject_iqr_beta": [
+    1.6660269555186304,
+    1.7656883762424924
+  ],
+  "per_subject_n": 107,
+  "per_subject_deviation_vs_crossectional_1.729": -0.009810693983980956,
+  "per_subject_within_15pct_of_ref": true,
+  "cross_sectional_reference_beta": 1.729,
+  "emp_reference_beta": 1.966,
+  "overall": "PASS stability"
+}

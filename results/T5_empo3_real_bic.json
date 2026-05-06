@@ -1,0 +1,10 @@
+{
+  "BIC_universal": -7995.653072888726,
+  "BIC_biome": -7969.985142959366,
+  "delta_BIC": 25.66792992935916,
+  "universal_beta": 1.9659378236325347,
+  "verdict": "universal decisive",
+  "n_points": 12610,
+  "n_biomes": 15,
+  "mode": "REAL EMP"
+}

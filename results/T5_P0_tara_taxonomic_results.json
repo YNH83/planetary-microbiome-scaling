@@ -1,0 +1,59 @@
+{
+  "executed": "2026-04-20T20:25:42",
+  "source": "Sunagawa 2015 Tara Oceans miTAG",
+  "n_samples_total": 139,
+  "n_otus_raw": 35651,
+  "per_fit": [
+    {
+      "label": "global_all_layers",
+      "n_samples": 139,
+      "n_otus_after_filter": 5679,
+      "beta": 1.7163052661681364,
+      "beta_se": 0.00696857066752972,
+      "beta_ci_lo": 1.7026442060405111,
+      "beta_ci_hi": 1.7299663262957616,
+      "alpha": -0.6119353316925162,
+      "r2": 0.9144216802049366
+    },
+    {
+      "label": "layer_SRF",
+      "n_samples": 63,
+      "n_otus_after_filter": 4612,
+      "beta": 1.6354276026798433,
+      "beta_se": 0.007524989171630312,
+      "beta_ci_lo": 1.6206750216171288,
+      "beta_ci_hi": 1.6501801837425578,
+      "alpha": -1.1448174521761512,
+      "r2": 0.9110786762734536
+    },
+    {
+      "label": "layer_DCM",
+      "n_samples": 42,
+      "n_otus_after_filter": 5122,
+      "beta": 1.6655908421927856,
+      "beta_se": 0.0075122759753558825,
+      "beta_ci_lo": 1.6508635703356098,
+      "beta_ci_hi": 1.6803181140499615,
+      "alpha": -1.0116189927457668,
+      "r2": 0.9056706829658407
+    },
+    {
+      "label": "layer_MES",
+      "n_samples": 30,
+      "n_otus_after_filter": 7802,
+      "beta": 1.6457705437454218,
+      "beta_se": 0.005409263651397929,
+      "beta_ci_lo": 1.6351669363957804,
+      "beta_ci_hi": 1.6563741510950631,
+      "alpha": -1.2386076940535278,
+      "r2": 0.9222862169388838
+    }
+  ],
+  "verdict": {
+    "global_beta": 1.7163052661681364,
+    "deviation_pct_vs_EMP": 12.7,
+    "within_15pct": true,
+    "within_10pct": false,
+    "CI_contains_EMP": false
+  }
+}

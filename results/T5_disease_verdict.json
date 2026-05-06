@@ -1,0 +1,20 @@
+{
+  "cohort": "HMP_2019_ibdmdb",
+  "state_proxy": "disease_subtype (control, UC, CD)",
+  "per_state_beta": {
+    "control": 1.6775138527545523,
+    "UC": 1.6267358977417583,
+    "CD": 1.6043777968577495
+  },
+  "beta_shift_fraction_vs_control": {
+    "UC": -0.030269767924368772,
+    "CD": -0.043597884915650725
+  },
+  "max_abs_fractional_shift": 0.043597884915650725,
+  "drift_threshold": 0.15,
+  "decisive_disease_signal": false,
+  "cross_sectional_reference_beta": 1.729,
+  "emp_reference_beta": 1.966,
+  "n_outlier_taxa_flagged": 40,
+  "interpretation": "Taylor-\u03b2 is state-invariant in IBDMDB within the 15% drift window; the scaling law is deeper than gross disease category."
+}

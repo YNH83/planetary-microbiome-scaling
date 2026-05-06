@@ -1,0 +1,15 @@
+{
+  "executed": "2026-04-20T20:26:10",
+  "source": "curatedMG HMP_2019_ibdmdb (iHMP IBDMDB)",
+  "n_subjects_tested": 107,
+  "min_visits_per_subject": 5,
+  "beta_mean": 1.7112536488262908,
+  "beta_median": 1.6971086276759775,
+  "beta_sd": 0.07741524690625547,
+  "beta_ci_lo_95": 1.5987555458430525,
+  "beta_ci_hi_95": 1.8677966616256507,
+  "r2_median": 0.9641091864050831,
+  "n_subjects_beta_in_1_5_2_5": 107,
+  "frac_in_pre_reg_band": 1.0,
+  "verdict": "Longitudinal \u03b2 differs from 2, indicating subject-specific deviations."
+}

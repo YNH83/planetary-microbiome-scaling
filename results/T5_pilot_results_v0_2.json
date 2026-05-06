@@ -1,0 +1,202 @@
+{
+  "version": "v0.2",
+  "model": "native stochastic-logistic SDE stationary Gamma (no post-hoc rescaling)",
+  "scenario_A_universal": {
+    "per_biome_taylor": [
+      {
+        "biome": "gut",
+        "taylor_beta_true": 2.0,
+        "taylor_beta_hat": 1.999008394689751,
+        "taylor_intercept_hat": -0.17868387082901166,
+        "taylor_r2": 0.9988488624913178,
+        "n_taxa_kept": 1000
+      },
+      {
+        "biome": "soil",
+        "taylor_beta_true": 2.0,
+        "taylor_beta_hat": 1.9995593716990798,
+        "taylor_intercept_hat": -0.1778625079969286,
+        "taylor_r2": 0.9989429735002514,
+        "n_taxa_kept": 1000
+      },
+      {
+        "biome": "ocean",
+        "taylor_beta_true": 2.0,
+        "taylor_beta_hat": 2.0058133042214434,
+        "taylor_intercept_hat": -0.17827441590461796,
+        "taylor_r2": 0.9988420496085195,
+        "n_taxa_kept": 1000
+      },
+      {
+        "biome": "city",
+        "taylor_beta_true": 2.0,
+        "taylor_beta_hat": 1.9995197074237445,
+        "taylor_intercept_hat": -0.18008168366016403,
+        "taylor_r2": 0.998907890502262,
+        "n_taxa_kept": 1000
+      },
+      {
+        "biome": "skin",
+        "taylor_beta_true": 2.0,
+        "taylor_beta_hat": 2.0007031011346457,
+        "taylor_intercept_hat": -0.17887854931233765,
+        "taylor_r2": 0.9989152949630895,
+        "n_taxa_kept": 1000
+      }
+    ],
+    "per_biome_afd": [
+      {
+        "biome": "gut",
+        "gamma_shape_alpha_median_true": 1.5,
+        "gamma_shape_hat": 1.4985262594008617,
+        "gamma_scale_hat": 0.6673223066506812,
+        "ks_stat": 0.00822244221238877,
+        "ks_p": 0.885040809398994
+      },
+      {
+        "biome": "soil",
+        "gamma_shape_alpha_median_true": 1.5,
+        "gamma_shape_hat": 1.4997780366792697,
+        "gamma_scale_hat": 0.666765331631438,
+        "ks_stat": 0.008661634762621273,
+        "ks_p": 0.8440908763090167
+      },
+      {
+        "biome": "ocean",
+        "gamma_shape_alpha_median_true": 1.5,
+        "gamma_shape_hat": 1.5000192970894948,
+        "gamma_scale_hat": 0.6666580902927797,
+        "ks_stat": 0.01228798691040181,
+        "ks_p": 0.4336399133604296
+      },
+      {
+        "biome": "city",
+        "gamma_shape_alpha_median_true": 1.5,
+        "gamma_shape_hat": 1.5091112251432388,
+        "gamma_scale_hat": 0.6626416816328988,
+        "ks_stat": 0.011963678472387357,
+        "ks_p": 0.4678958140504764
+      },
+      {
+        "biome": "skin",
+        "gamma_shape_alpha_median_true": 1.5,
+        "gamma_shape_hat": 1.501466039070479,
+        "gamma_scale_hat": 0.6660157299455642,
+        "ks_stat": 0.008835805272486397,
+        "ks_p": 0.8264648730112951
+      }
+    ],
+    "pooled_universal_taylor_beta": 1.9988070332283607,
+    "pooled_universal_taylor_r2": 0.9988124548007489,
+    "bic_universal": -19029.661552281956,
+    "bic_biome_specific": -18974.229738676313,
+    "delta_bic_bminusa": 55.431813605642674,
+    "winner_by_bic": "universal"
+  },
+  "scenario_B_biome_specific": {
+    "per_biome_taylor": [
+      {
+        "biome": "gut",
+        "taylor_beta_true": 2.05,
+        "taylor_beta_hat": 2.0880302816111547,
+        "taylor_intercept_hat": -0.1573807046510698,
+        "taylor_r2": 0.9989131165067505,
+        "n_taxa_kept": 1000
+      },
+      {
+        "biome": "soil",
+        "taylor_beta_true": 1.9,
+        "taylor_beta_hat": 1.8304434916398422,
+        "taylor_intercept_hat": -0.12119494990758617,
+        "taylor_r2": 0.9990624504965967,
+        "n_taxa_kept": 1000
+      },
+      {
+        "biome": "ocean",
+        "taylor_beta_true": 2.1,
+        "taylor_beta_hat": 2.165337701373958,
+        "taylor_intercept_hat": -0.22303883854850393,
+        "taylor_r2": 0.9986999797857207,
+        "n_taxa_kept": 1000
+      },
+      {
+        "biome": "city",
+        "taylor_beta_true": 2.0,
+        "taylor_beta_hat": 2.0008396789873704,
+        "taylor_intercept_hat": -0.14735739266803677,
+        "taylor_r2": 0.9988720648664031,
+        "n_taxa_kept": 1000
+      },
+      {
+        "biome": "skin",
+        "taylor_beta_true": 1.85,
+        "taylor_beta_hat": 1.777760984469,
+        "taylor_intercept_hat": -0.25066532249983214,
+        "taylor_r2": 0.9984221569062719,
+        "n_taxa_kept": 1000
+      }
+    ],
+    "per_biome_afd": [
+      {
+        "biome": "gut",
+        "gamma_shape_alpha_median_true": 1.5063497053969104,
+        "gamma_shape_hat": 1.4987355916719594,
+        "gamma_scale_hat": 0.667229100020518,
+        "ks_stat": 0.014566766358226957,
+        "ks_p": 0.23689301326024914
+      },
+      {
+        "biome": "soil",
+        "gamma_shape_alpha_median_true": 1.2070864842895221,
+        "gamma_shape_hat": 1.1327230132588437,
+        "gamma_scale_hat": 0.8828283598856177,
+        "ks_stat": 0.021881385134358167,
+        "ks_p": 0.016412875635731492
+      },
+      {
+        "biome": "ocean",
+        "gamma_shape_alpha_median_true": 1.8009888392956033,
+        "gamma_shape_hat": 1.753590389933547,
+        "gamma_scale_hat": 0.5702585995797432,
+        "ks_stat": 0.011723006005141978,
+        "ks_p": 0.494175237650907
+      },
+      {
+        "biome": "city",
+        "gamma_shape_alpha_median_true": 1.4,
+        "gamma_shape_hat": 1.3991929060590906,
+        "gamma_scale_hat": 0.7146977344364609,
+        "ks_stat": 0.010522311773836474,
+        "ks_p": 0.6332604217447577
+      },
+      {
+        "biome": "skin",
+        "gamma_shape_alpha_median_true": 1.5851660778733798,
+        "gamma_shape_hat": 1.5123902753608518,
+        "gamma_scale_hat": 0.6612049920523346,
+        "ks_stat": 0.013264905729913679,
+        "ks_p": 0.33951477817361053
+      }
+    ],
+    "pooled_universal_taylor_beta": 1.946682516358603,
+    "pooled_universal_taylor_r2": 0.9905346727987251,
+    "bic_universal": -8597.548540011076,
+    "bic_biome_specific": -18987.4742823737,
+    "delta_bic_bminusa": -10389.925742362624,
+    "winner_by_bic": "biome_specific"
+  },
+  "sim_config": {
+    "n_taxa": 1000,
+    "n_samples": 500,
+    "biomes": [
+      "gut",
+      "soil",
+      "ocean",
+      "city",
+      "skin"
+    ],
+    "seed": 20260416,
+    "birth_b": 1.0,
+    "alpha_target_A": 1.5
+  }
+}

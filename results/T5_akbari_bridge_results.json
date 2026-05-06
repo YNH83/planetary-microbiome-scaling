@@ -1,0 +1,102 @@
+{
+  "executed": "2026-04-20T19:30:18",
+  "pre_reg_bridge_claim": "M1 atlas signal concentrates in gut-typical fermentation orders; environment-broad orders do not show enrichment. Consistent with T5 'host influence enters via alpha'.",
+  "gut_typical_orders": {
+    "n_tested": 7,
+    "n_q05": 2,
+    "median_OR_full": 1.242828151832253,
+    "median_OR_no_lct": 1.2533298044884194,
+    "hits": [
+      {
+        "short": "Bifidobacteriales",
+        "n_instruments": 639,
+        "OR_full": 695.4229593457202,
+        "OR_no_lct": 65.81083501603516,
+        "q_bh": 0.0
+      },
+      {
+        "short": "Lactobacillales",
+        "n_instruments": 76,
+        "OR_full": 38.80223034161126,
+        "OR_no_lct": 39.13015393789632,
+        "q_bh": 3.7539061058731632e-34
+      },
+      {
+        "short": "Verrucomicrobiales",
+        "n_instruments": 59,
+        "OR_full": 1.7754744576048709,
+        "OR_no_lct": 1.790476940197719,
+        "q_bh": 1.0
+      },
+      {
+        "short": "Clostridiales",
+        "n_instruments": 36,
+        "OR_full": 1.242828151832253,
+        "OR_no_lct": 1.2533298044884194,
+        "q_bh": 1.0
+      },
+      {
+        "short": "Selenomonadales",
+        "n_instruments": 35,
+        "OR_full": 0.0,
+        "OR_no_lct": 0.0,
+        "q_bh": 1.0
+      },
+      {
+        "short": "Coriobacteriales",
+        "n_instruments": 32,
+        "OR_full": 0.0,
+        "OR_no_lct": 0.0,
+        "q_bh": 1.0
+      },
+      {
+        "short": "Bacteroidales",
+        "n_instruments": 132,
+        "OR_full": 0.0,
+        "OR_no_lct": 0.0,
+        "q_bh": 1.0
+      }
+    ]
+  },
+  "env_broad_orders": {
+    "n_tested": 2,
+    "n_q05": 0,
+    "median_OR_full": 0.0,
+    "median_OR_no_lct": 0.0,
+    "hits": [
+      {
+        "short": "Burkholderiales",
+        "n_instruments": 97,
+        "OR_full": 0.0,
+        "OR_no_lct": 0.0,
+        "q_bh": 1.0
+      },
+      {
+        "short": "Actinomycetales",
+        "n_instruments": 28,
+        "OR_full": 0.0,
+        "OR_no_lct": 0.0,
+        "q_bh": 1.0
+      }
+    ]
+  },
+  "gut_vs_env_mw": {
+    "OR_full_p_gt": 0.13082554529411833,
+    "OR_nolct_p_gt": 0.13082554529411833
+  },
+  "t5_context": {
+    "n_biomes": 15,
+    "universal_beta": 1.9501236151075123,
+    "beta_min": 1.815139879830425,
+    "beta_max": 2.068162729797303,
+    "host_associated_biomes": [
+      "Animal corpus",
+      "Animal distal gut",
+      "Animal proximal gut",
+      "Animal secretion",
+      "Animal surface",
+      "Plant rhizosphere",
+      "Plant surface"
+    ]
+  }
+}

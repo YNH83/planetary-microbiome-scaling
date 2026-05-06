@@ -1,0 +1,12 @@
+# T5 Macroecology pipeline requirements
+# Tested with Python 3.10
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
+matplotlib>=3.8
+seaborn>=0.13
+pymc>=5.10
+arviz>=0.17
+biom-format>=2.1
+scikit-bio>=0.5
+python-docx>=1.0

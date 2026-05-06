@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "executed": "2026-04-20T14:27:50",
+    "engine": "pymc",
+    "n_biomes": 15
+  },
+  "full": {
+    "beta_g_mean": 1.9524861778951472,
+    "beta_g_hdi95": [
+      1.9111244110821117,
+      1.9930419011557827
+    ]
+  },
+  "loo": [
+    {
+      "excluded_biome": "Aerosol (non-saline)",
+      "beta_g_loo_mean": 1.9547643253116127,
+      "beta_g_loo_hdi_lo": 1.906455629337963,
+      "beta_g_loo_hdi_hi": 1.9993238132807496,
+      "shift_vs_full": 0.0022781474164654814
+    },
+    {
+      "excluded_biome": "Animal corpus",
+      "beta_g_loo_mean": 1.950529859191267,
+      "beta_g_loo_hdi_lo": 1.9070824150969623,
+      "beta_g_loo_hdi_hi": 1.9949788298920281,
+      "shift_vs_full": -0.0019563187038802443
+    },
+    {
+      "excluded_biome": "Animal distal gut",
+      "beta_g_loo_mean": 1.947147786006917,
+      "beta_g_loo_hdi_lo": 1.902443997244335,
+      "beta_g_loo_hdi_hi": 1.9924081404753653,
+      "shift_vs_full": -0.005338391888230154
+    },
+    {
+      "excluded_biome": "Animal proximal gut",
+      "beta_g_loo_mean": 1.9461529329944975,
+      "beta_g_loo_hdi_lo": 1.9002454242110463,
+      "beta_g_loo_hdi_hi": 1.991073458927378,
+      "shift_vs_full": -0.006333244900649682
+    },
+    {
+      "excluded_biome": "Animal secretion",
+      "beta_g_loo_mean": 1.9599903192774315,
+      "beta_g_loo_hdi_lo": 1.9184920203993296,
+      "beta_g_loo_hdi_hi": 1.9988369873978884,
+      "shift_vs_full": 0.0075041413822842795
+    },
+    {
+      "excluded_biome": "Animal surface",
+      "beta_g_loo_mean": 1.9489289341461054,
+      "beta_g_loo_hdi_lo": 1.8992106253738494,
+      "beta_g_loo_hdi_hi": 1.993374261777192,
+      "shift_vs_full": -0.003557243749041872
+    },
+    {
+      "excluded_biome": "Plant rhizosphere",
+      "beta_g_loo_mean": 1.947687549910213,
+      "beta_g_loo_hdi_lo": 1.900546463991737,
+      "beta_g_loo_hdi_hi": 1.99195232382055,
+      "shift_vs_full": -0.004798627984934134
+    },
+    {
+      "excluded_biome": "Plant surface",
+      "beta_g_loo_mean": 1.9626522339233257,
+      "beta_g_loo_hdi_lo": 1.9252726648690406,
+      "beta_g_loo_hdi_hi": 2.0024608513768043,
+      "shift_vs_full": 0.010166056028178438
+    },
+    {
+      "excluded_biome": "Sediment (non-saline)",
+      "beta_g_loo_mean": 1.951977228416158,
+      "beta_g_loo_hdi_lo": 1.9062403114696407,
+      "beta_g_loo_hdi_hi": 1.9974646917641685,
+      "shift_vs_full": -0.0005089494789891624
+    },
+    {
+      "excluded_biome": "Sediment (saline)",
+      "beta_g_loo_mean": 1.942252747905438,
+      "beta_g_loo_hdi_lo": 1.901868021627852,
+      "beta_g_loo_hdi_hi": 1.9855587880262382,
+      "shift_vs_full": -0.01023342998970933
+    },
+    {
+      "excluded_biome": "Soil (non-saline)",
+      "beta_g_loo_mean": 1.9483501291069039,
+      "beta_g_loo_hdi_lo": 1.9032335817478856,
+      "beta_g_loo_hdi_hi": 1.9939734779938407,
+      "shift_vs_full": -0.004136048788243363
+    },
+    {
+      "excluded_biome": "Surface (non-saline)",
+      "beta_g_loo_mean": 1.9538153261294644,
+      "beta_g_loo_hdi_lo": 1.9074745681801684,
+      "beta_g_loo_hdi_hi": 1.9980158593780633,
+      "shift_vs_full": 0.001329148234317179
+    },
+    {
+      "excluded_biome": "Surface (saline)",
+      "beta_g_loo_mean": 1.9444315742673854,
+      "beta_g_loo_hdi_lo": 1.8987903958440098,
+      "beta_g_loo_hdi_hi": 1.987338288424257,
+      "shift_vs_full": -0.00805460362776178
+    },
+    {
+      "excluded_biome": "Water (non-saline)",
+      "beta_g_loo_mean": 1.9544848323848483,
+      "beta_g_loo_hdi_lo": 1.9073653870837057,
+      "beta_g_loo_hdi_hi": 1.9994601757705057,
+      "shift_vs_full": 0.001998654489701046
+    },
+    {
+      "excluded_biome": "Water (saline)",
+      "beta_g_loo_mean": 1.9588712858967783,
+      "beta_g_loo_hdi_lo": 1.9159097152045816,
+      "beta_g_loo_hdi_hi": 2.0037413522463017,
+      "shift_vs_full": 0.006385108001631057
+    }
+  ],
+  "max_abs_shift": 0.01023342998970933,
+  "pre_reg_threshold": 0.05,
+  "pass_pre_reg": true
+}
